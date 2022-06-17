@@ -1,0 +1,72 @@
+@import url(‘https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap’);
+
+@font-face {
+    font-family: Poppins;
+    src: url(https://fonts.google.com/specimen/Poppins);
+}
+
+body {
+    font-family: Poppins;
+    font: 16px;
+    font-weight: 400, 500, 600, 700;
+    border-color: none;
+}
+
+.container {
+    background-image: url("./bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%);
+    height: 300px;
+    padding: 40px;
+    display: flex;    
+}
+.left {
+    color: white;
+    width: 45%;
+    /* background-color: black; */
+}
+.right {
+    display: block;
+    width: 45%;
+}
+button {
+    border: none;
+    width: 180px;
+    height: 40px;
+    width: 100%;
+}
+#top {
+    background-color: hsl(248, 32%, 49%);
+    
+}
+
+.form {
+    background-color: white;
+    margin: 10px;
+    width: 180px;
+    padding: 20px;
+}
+
+#submit {
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+}
+input {
+    margin-bottom: 10px;
+    color: hsl(246, 25%, 77%);
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 100%;
+    border-style: solid;
+    border-color:hsl(246, 25%, 77%) ;
+}
+.form p {
+    font-size: 12px;
+    color: hsl(246, 25%, 77%);
+}
+
+span {
+    color: hsl(0, 100%, 74%);
+    font-size: small;
+}
+
